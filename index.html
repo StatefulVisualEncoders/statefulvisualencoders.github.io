@@ -56,12 +56,12 @@
     align-items:start;
   }
   .hero-text{text-align:left;}
+  .venue-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;}
   .venue{
     display:inline-block;
-    font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+    font-size:.70rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
     color:var(--green-dark);background:var(--green-soft);
-    padding:5px 14px;border-radius:999px;margin-bottom:20px;
-    margin-right:8px;white-space:nowrap;
+    padding:4px 12px;border-radius:999px;white-space:nowrap;
   }
   .venue .oral{
     display:inline-block;
@@ -213,9 +213,11 @@
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-text">
-        <span class="venue">EMNLP 2026 — Main Conference</span>
-        <span class="venue">ECCV X-Reason Workshop — <span class="oral">Oral</span></span>
-        <span class="venue">ECCV MedFMB Workshop — <span class="oral">Oral</span></span>
+        <div class="venue-row">
+          <span class="venue">EMNLP 2026 Main</span>
+          <span class="venue">ECCV X-Reason Workshop <span class="oral">Oral</span></span>
+          <span class="venue">ECCV MedFMB Workshop <span class="oral">Oral</span></span>
+        </div>
         <h1 class="title">Stateful Visual Encoders for Vision-Language Models</h1>
         <div class="authors">
           <span class="au"><a href="https://zwcolin.github.io/" target="_blank" rel="noopener">Zirui Wang</a>,</span>&nbsp;
